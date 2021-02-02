@@ -42,7 +42,7 @@ services:
     build: ./data/htdocs
     environment:
       TZ: "Asia/Tokyo"
-      PRJ: "sample"
+      PRJ: "cake_lab"
     volumes:
       - "./data/htdocs:/root"
     ports:
